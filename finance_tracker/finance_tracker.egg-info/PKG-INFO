@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: finance_tracker
+Version: 0.1
+Requires-Dist: sqlalchemy
+Requires-Dist: alembic
+Requires-Dist: click
