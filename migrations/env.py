@@ -1,9 +1,5 @@
-import os
-import sys
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 from logging.config import fileConfig
-from finance_tracker.models import Base
-target_metadata = Base.metadata
+
 from sqlalchemy import engine_from_config
 from sqlalchemy import pool
 

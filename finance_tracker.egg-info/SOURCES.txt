@@ -1,4 +1,3 @@
-README.md
 setup.py
 finance_tracker/__init__.py
 finance_tracker/cli.py
